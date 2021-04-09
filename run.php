@@ -14,6 +14,7 @@ use Curl\Curl;
 // init curl
 $curl = new Curl();
 $temp = "0";
+$telegramChatId = null;
 
 function telegramConnect($curl, $telegramToken, $telegramChatIdAsk, $telegramChatId) {
     if ($telegramChatId != null){
